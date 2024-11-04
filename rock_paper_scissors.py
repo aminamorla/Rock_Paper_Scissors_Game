@@ -1,15 +1,13 @@
-#defined three chioces
+import random
 choices = ["Rock", "Paper", "Scissors"]
-#1 "Rock"
-#2 "Paper"
-#3 "Scissors"
-#instructions
+player_score = 0
+computer_score = 0
+
 print("Welcome to the Rock, Paper, Scissors game!")
-print('Type "rock", "paper", or "scissors" to play. Type "quit" to exit the game.')
-#scores
-player_score = 2
-computer_score = 3
-computer_choices = (choices) #alternating choices
+print("Type 'rock', 'paper', or 'scissors' to play.")
+print('Type "quit" to exit the game.')
+
+
 
 while True:
     player_choice = input("Your choice: ").lower()
