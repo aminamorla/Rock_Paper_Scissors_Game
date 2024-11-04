@@ -56,7 +56,7 @@ while player_score < rounds and computer_score < rounds:
     # 6. Randomize computer choice
     computer_action = random.choice(choices)
     print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
-   # 7# 7. Print ASCII art for user and computer choices
+   #  7. Print ASCII art for user and computer choices
     if user_action == "rock":
         print(rock_art)
     elif user_action == "paper":
@@ -64,12 +64,6 @@ while player_score < rounds and computer_score < rounds:
     elif user_action == "scissors":
         print(scissors_art)
 
-    if computer_action == "rock":
-        print(rock_art)
-    elif computer_action == "paper":
-        print(paper_art)
-    elif computer_action == "scissors":
-        print(scissors_art)
     # 8. Determine the Winner
     if user_action == computer_action:
         result = "It's a tie!"
